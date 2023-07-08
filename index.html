@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+
+<html>
+  <head>
+    <title>Калькулятор ИМТ</title>
+    
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=360, user-scalable=no'>
+    
+    <link rel='icon' href='./icon.gif'>
+    <link rel='stylesheet' href='./Main/Main.css'>
+    <script src='./Main/Main.js'></script>
+  </head>
+  
+  <body>
+  <div class="glass">
+    <form onsubmit="return false;">
+      <div class="indata">
+        <input type="number" min="1" max="99999" placeholder="Введите вес (в кг)" id="m" required>
+        <input type="number" min="1" max="99999" placeholder="Введите рост (в см)" id="h" required>
+        <button class="link" type="submit" onclick="IMT();">Рассчитать ИМТ</button>
+      </div>
+      <div class="result">
+        <div class="i"></div>
+        <div class="IMT_char"></div>
+      </div>
+    </form>
+      <a class='go' href="./Eng.html">Eng</a>
+  </body>
+</div>
+</html>
