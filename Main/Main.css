@@ -1,0 +1,117 @@
+body{
+  background-image: url(../back.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: Arial;
+  font-size: 16;
+  }
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  -webkit-appearance: textfield;
+  appearance: textfield;
+  background-color: #eee;
+  vertical-align: top;
+  outline: none;
+  padding: 0;
+  height: 40px;
+  line-height: 40px;    
+  text-indent: 10px;
+  display: inline-block;
+  width: 30%;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  border-radius: 3px;
+  font-family: Arial;
+  font-size: 16;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  display: none;
+}
+ 
+input[type="number"]:focus {
+  outline: 2px solid blue;
+}
+
+.go {
+  color: #b3b3b3;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-decoration: none;
+  font-size: 25px;
+  transition: font-size .10s, color .3s;
+}
+
+.go:visited {
+  color: #b3b3b3;
+}
+
+.go:hover {
+  font-size: 28px;
+  color: white;
+}
+
+.glass{
+  background: rgba(0, 0, 0, 0.7);
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  position: fixed;
+}
+
+.indata{
+  display: grid;
+  grid-row-gap: 20px;
+}
+
+form{
+  position: fixed; top: 30%; left: 40vw; right: 0;
+  display: grid;
+  grid-row-gap: 10px;
+}
+
+.result{
+  text-align: center;
+  display: grid;
+  grid-row-gap: 10px;
+  grid-template-columns: 30%;
+}
+
+.i{
+  font-size: 60px;
+  font-family: Arial Black;
+  color: #0d79de;
+}
+
+.link {
+  width: 30%;
+  color: #e6e8e6;
+  text-align: center;
+  padding-right: 30px;
+  font-size: 19px;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);  
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size .3s, color .3s;  
+  margin: 0; padding: 0; border: 0; outline: none; background-color: transparent;
+}
+  
+.link:visited {
+  color: #e6e8e6;
+}
+  
+.link:hover {
+  color: #3f888f;
+}
