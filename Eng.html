@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+
+<html>
+  <head>
+    <title>Calculater BMI</title>
+    
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=360, user-scalable=no'>
+    
+    <link rel='icon' href='./icon.gif'>
+    <link rel='stylesheet' href='./Main/Main.css'>
+    <script src='./Main/Main1.js'></script>
+  </head>
+  
+  <body>
+  <div class="glass">
+    <form onsubmit="return false;">
+      <div class="indata">
+        <input type="number" min="1" max="99999" placeholder="Enter the weight (in kg)" id="m" required>
+        <input type="number" min="1" max="99999" placeholder="Enter height (in cm)" id="h" required>
+        <button class="link" type="submit" onclick="IMT();">Calculate BMI</button>
+      </div>
+      <div class="result">
+        <div class="i"></div>
+        <div class="IMT_char"></div>
+      </div>
+    </form>
+      <a class='go' href="./index.html">Рус</a>
+  </body>
+</div>
+</html>
